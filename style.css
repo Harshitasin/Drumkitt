@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    background-color: rgb(37, 37, 74);
+}
+h1{
+    font-size: 5rem;
+    color: ghostwhite;
+    font-family: cursive;
+    text-shadow: 3px 1px red;
+}
+.set{
+    margin: 10% auto;
+}
+.drum{
+    outline: none;
+    border: 10px solid rgb(93, 93, 213);
+    font-size: 5rem;
+    font-family: cursive;
+    line-height: 1.5;
+    font-weight: 900;
+    color: rgb(247, 57, 57);
+    text-shadow:  3px 1px ghostwhite;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+
+}
+.w{
+    background: url('images/tom1.png');
+}
+.a{
+    background: url('images/tom2.png');
+}
+.s{
+    background: url('images/tom3.png');
+}
+.d{
+    background: url('images/tom4.png');
+}
+.j{
+    background: url('images/snare.png');
+}
+.k{
+    background: url("images/crash.png");
+}
+.l{
+    background: url("images/kick.png");
+}
+.pressed{
+    box-shadow: 1px 3px 4px 0 gainsboro;
+    opacity: 0.5;
+}
